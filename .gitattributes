@@ -1,0 +1,11 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf whitespace=-blank-at-eof
+LICENSES/*.txt text eol=lf whitespace=-blank-at-eof
+*.py text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.blend binary
+*.png binary
+*.step -text whitespace=-blank-at-eol,-blank-at-eof

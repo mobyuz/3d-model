@@ -1,0 +1,70 @@
+﻿Net number,Net,Contact,Assembly group,X mm,Y mm,Z mm
+1,3V3,U1.3V3,Main board,-23.475,-6.4,25.25
+1,3V3,M1.VCC,OLED,-3.81,-12.88,28.3
+1,3V3,M2.VDD,Microphone,-15.0,4.69,52.23
+1,3V3,C1.1,Microphone,-15.82,13.65,53.25
+1,3V3,C2.1,OLED,6.18,-18.5,28.7
+1,3V3,R2.1,Passive board,-29.39,1.31,49.85
+1,3V3,R5.1,Passive board,-29.39,-3.36,47.2
+2,5V,U1.5V,Main board,27.325,-6.4,25.25
+2,5V,M3.VIN,Amplifier,30.72,12.2,35.73
+2,5V,C4.+,Passive board,-31.77,-2.4,44.08
+2,5V,M4.red,Servo,-14.4,-7.9,36.7
+2,5V,C5.+,Passive board,-31.77,6.95,44.08
+3,GND,U1.GND,Main board,29.865,-6.4,25.25
+3,GND,M1.GND,OLED,-1.27,-12.88,28.3
+3,GND,M2.GND,Microphone,-17.54,4.69,52.23
+3,GND,M2.L/R,Microphone,-17.54,12.31,52.23
+3,GND,C1.2,Microphone,-14.18,13.65,53.25
+3,GND,C2.2,OLED,7.82,-18.5,28.7
+3,GND,R4.2,Passive board,-29.39,12.27,49.85
+3,GND,S1.B-on,Front controls,-21.5,-17.23,20.75
+3,GND,SW1.2,Front controls,27.15,-18.25,17.25
+3,GND,LED1.K,Front controls,24.435,-20.2,24.4
+3,GND,M3.GND,Amplifier,30.72,12.2,38.27
+3,GND,C4.-,Passive board,-31.77,1.1,44.08
+3,GND,M4.brown,Servo,-14.4,-7.9,35.55
+3,GND,R7.2,Passive board,-29.39,7.6,47.2
+3,GND,C5.-,Passive board,-31.77,10.45,44.08
+4,U1.GPIO8 / M1.SDA,U1.GPIO8,Main board,4.465,-6.4,25.25
+4,U1.GPIO8 / M1.SDA,M1.SDA,OLED,3.81,-12.88,28.3
+5,U1.GPIO9 / M1.SCL,U1.GPIO9,Main board,12.085,-6.4,25.25
+5,U1.GPIO9 / M1.SCL,M1.SCL,OLED,1.27,-12.88,28.3
+6,U1.GPIO4 / M2.SCK,U1.GPIO4,Main board,-15.855,-6.4,25.25
+6,U1.GPIO4 / M2.SCK,M2.SCK,Microphone,-12.46,12.31,52.23
+7,U1.GPIO5 / M2.WS,U1.GPIO5,Main board,-13.315,-6.4,25.25
+7,U1.GPIO5 / M2.WS,M2.WS,Microphone,-15.0,12.31,52.23
+8,M2.SD / S1.common A,M2.SD,Microphone,-12.46,4.69,52.23
+8,M2.SD / S1.common A,S1.common A,Front controls,-24.0,-17.23,18.25
+9,S1.A-on / R3.1,S1.A-on,Front controls,-21.5,-17.23,18.25
+9,S1.A-on / R3.1,R3.1,Passive board,-29.39,5.98,49.85
+10,U1.GPIO6 / R3.2,U1.GPIO6,Main board,-10.775,-6.4,25.25
+10,U1.GPIO6 / R3.2,R3.2,Passive board,-29.39,7.6,49.85
+10,U1.GPIO6 / R3.2,R4.1,Passive board,-29.39,10.65,49.85
+11,U1.GPIO10 / S1.common B,U1.GPIO10,Main board,14.625,-6.4,25.25
+11,U1.GPIO10 / S1.common B,S1.common B,Front controls,-24.0,-17.23,20.75
+11,U1.GPIO10 / S1.common B,R5.2,Passive board,-29.39,-1.74,47.2
+11,U1.GPIO10 / S1.common B,LED2.K,Front controls,-23.165,-20.2,24.4
+12,R2.2 / LED2.A,R2.2,Passive board,-29.39,2.93,49.85
+12,R2.2 / LED2.A,LED2.A,Front controls,-24.435,-20.2,24.4
+13,U1.GPIO7 / SW1.1,U1.GPIO7,Main board,-8.235,-6.4,25.25
+13,U1.GPIO7 / SW1.1,SW1.1,Front controls,20.85,-18.25,21.75
+14,U1.GPIO21 / R1.1,U1.GPIO21,Main board,19.705,19.0,25.25
+14,U1.GPIO21 / R1.1,R1.1,Passive board,-29.39,-3.36,49.85
+15,R1.2 / LED1.A,R1.2,Passive board,-29.39,-1.74,49.85
+15,R1.2 / LED1.A,LED1.A,Front controls,23.165,-20.2,24.4
+16,U1.GPIO15 / M3.BCLK,U1.GPIO15,Main board,-5.695,-6.4,25.25
+16,U1.GPIO15 / M3.BCLK,M3.BCLK,Amplifier,30.72,12.2,48.43
+17,U1.GPIO16 / M3.LRC,U1.GPIO16,Main board,-3.155,-6.4,25.25
+17,U1.GPIO16 / M3.LRC,M3.LRC,Amplifier,30.72,12.2,50.97
+18,U1.GPIO17 / M3.DIN,U1.GPIO17,Main board,-0.615,-6.4,25.25
+18,U1.GPIO17 / M3.DIN,M3.DIN,Amplifier,30.72,12.2,45.89
+19,M3.OUT+ / LS1.1,M3.OUT+,Amplifier,26.75,-4.25,41.6
+19,M3.OUT+ / LS1.1,LS1.1,Speaker,2.0,19.75,48.55
+20,M3.OUT- / LS1.2,M3.OUT-,Amplifier,26.75,-4.25,45.1
+20,M3.OUT- / LS1.2,LS1.2,Speaker,-2.0,19.75,48.55
+21,U1.GPIO18 / R6.1,U1.GPIO18,Main board,1.925,-6.4,25.25
+21,U1.GPIO18 / R6.1,R6.1,Passive board,-29.39,1.31,47.2
+22,SERVO_SIG,M4.orange,Servo,-14.4,-7.9,37.85
+22,SERVO_SIG,R6.2,Passive board,-29.39,2.93,47.2
+22,SERVO_SIG,R7.1,Passive board,-29.39,5.98,47.2
